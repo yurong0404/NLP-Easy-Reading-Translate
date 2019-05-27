@@ -25,7 +25,7 @@ if __name__ == '__main__':
 
 	#token_pos => [('Tokyo', 'NNP'), ('(', '('), ('CNN', 'NNP'), (')', ')'), ('Japan', 'NNP'), ("'s", 'POS'), ....]
 	token_pos = nltk.pos_tag(nltk.word_tokenize(origin))
-
+	print(token_pos)
 	#word_token => dictionary with key = paragraph's index, value = word_tokenize(value of paragraph)
 	#word_token => {0: ['Tokyo'], 1:['(', 'CNN', ')', 'Japan', "'s"], 2:['85-year-old'], ....}
 	word_token = {}
